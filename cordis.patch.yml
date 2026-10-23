@@ -1,0 +1,4 @@
+- insert:
+    - id: statutes
+          name: '@local/dsh-statutes'
+                config: {}
