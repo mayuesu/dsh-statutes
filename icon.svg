@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Statutes">
+  <rect width="64" height="64" rx="14" fill="#1f6feb"/>
+<g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 15v33"/>
+    <path d="M21 48h22"/>
+    <path d="M13 25h38"/>
+    <path d="M13 25l-5.5 9a7.5 7.5 0 0 0 11 0z"/>
+    <path d="M51 25l-5.5 9a7.5 7.5 0 0 0 11 0z"/>
+    <circle cx="32" cy="15" r="2.5" fill="#ffffff" stroke="none"/>
+  </g>
+</svg>
