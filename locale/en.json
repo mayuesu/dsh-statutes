@@ -1,0 +1,6 @@
+{
+  "meta": {
+      "title": "Statutes",
+          "description": "Attach reusable rules to a conversation. They are injected before every answer and enforced before tool calls."
+            }
+            }
