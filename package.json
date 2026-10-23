@@ -1,0 +1,37 @@
+{
+    "name": "@local/dsh-statutes",
+    "version": "1.0.0",
+    "private": true,
+    "description": "法条：给对话挂载可复用规则，回答前注入，工具调用前强制拦截",
+    "type": "module",
+    "main": "index.js",
+    "exports": {
+          ".": "./index.js",
+          "./client": "./client.js",
+          "./locale/*.json": "./locale/*.json",
+          "./icon": "./icon.svg"
+    },
+    "files": [
+          "index.js",
+          "client.js",
+          "cordis.patch.yml",
+          "locale/*.json",
+          "icon.svg",
+          "README.md",
+          "INSTALL.md",
+          "LICENSE"
+    ],
+    "dsh": {
+          "bundle": {
+                  "patch": "./cordis.patch.yml"
+          },
+          "client": {
+                  "platform": "web",
+                  "immediately": true,
+                  "inject": [
+                            "@deepseek-ai/dsh-client-ui-conversation"
+                  ]
+          }
+    },
+    "license": "MIT"
+}
